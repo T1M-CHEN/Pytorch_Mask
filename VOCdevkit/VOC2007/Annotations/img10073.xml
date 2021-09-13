@@ -1,0 +1,26 @@
+<annotation>
+	<folder>MyExtraFaceImages</folder>
+	<filename>img10073.jpg</filename>
+	<path>D:\MyExtraFaceImages\img10073.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>mask</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>912</xmin>
+			<ymin>96</ymin>
+			<xmax>1303</xmax>
+			<ymax>538</ymax>
+		</bndbox>
+	</object>
+</annotation>

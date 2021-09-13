@@ -1,0 +1,26 @@
+<annotation>
+	<folder>MyImages</folder>
+	<filename>img03092.jpg</filename>
+	<path>D:\VOCdevkit\VOC2007\MyImages\img03092.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>500</width>
+		<height>750</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>mask</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>203</xmin>
+			<ymin>154</ymin>
+			<xmax>310</xmax>
+			<ymax>259</ymax>
+		</bndbox>
+	</object>
+</annotation>

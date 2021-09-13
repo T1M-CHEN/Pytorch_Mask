@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<annotation>
+	<folder>/home/daniel/Data/Dataset/nomaskMaskNew/val_mafa</folder>
+	<filename>test_00004398.xml</filename>
+	<object>
+		<name>mask</name>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>238</xmin>
+			<ymin>147</ymin>
+			<xmax>573</xmax>
+			<ymax>635</ymax>
+		</bndbox>
+	</object>
+<size><width>769</width><height>769</height><depth>3</depth></size></annotation>
