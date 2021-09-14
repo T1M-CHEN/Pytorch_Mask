@@ -1,0 +1,26 @@
+<annotation>
+	<folder>MyExtraFaceImages</folder>
+	<filename>img04048.jpg</filename>
+	<path>D:\MyExtraFaceImages\img04048.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>333</width>
+		<height>434</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>nomask</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>144</xmin>
+			<ymin>113</ymin>
+			<xmax>219</xmax>
+			<ymax>205</ymax>
+		</bndbox>
+	</object>
+</annotation>

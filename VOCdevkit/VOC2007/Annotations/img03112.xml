@@ -1,0 +1,26 @@
+<annotation>
+	<folder>MyFaceImages</folder>
+	<filename>img03112.jpg</filename>
+	<path>D:\MyFaceImages\img03112.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>474</width>
+		<height>590</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>mask</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>146</xmin>
+			<ymin>185</ymin>
+			<xmax>299</xmax>
+			<ymax>357</ymax>
+		</bndbox>
+	</object>
+</annotation>

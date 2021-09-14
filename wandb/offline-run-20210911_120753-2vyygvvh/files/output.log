@@ -1,0 +1,128 @@
+Plotting labels...
+[34m[1mautoanchor: [39m[22mAnalyzing anchors... anchors/target = 5.06, Best Possible Recall (BPR) = 0.9985
+                 from  n    params  module                                  arguments
+  0                -1  1      3520  models.common.Focus                     [3, 32, 3]
+  1                -1  1     18560  models.common.Conv                      [32, 64, 3, 2]
+  2                -1  1     18816  models.common.C3                        [64, 64, 1]
+  3                -1  1     73984  models.common.Conv                      [64, 128, 3, 2]
+  4                -1  3    156928  models.common.C3                        [128, 128, 3]
+  5                -1  1    295424  models.common.Conv                      [128, 256, 3, 2]
+  6                -1  3    625152  models.common.C3                        [256, 256, 3]
+  7                -1  1   1180672  models.common.Conv                      [256, 512, 3, 2]
+  8                -1  1    656896  models.common.SPP                       [512, 512, [5, 9, 13]]
+  9                -1  1   1182720  models.common.C3                        [512, 512, 1, False]
+ 10                -1  1    131584  models.common.Conv                      [512, 256, 1, 1]
+ 11                -1  1         0  torch.nn.modules.upsampling.Upsample    [None, 2, 'nearest']
+ 12           [-1, 6]  1         0  models.common.Concat                    [1]
+ 13                -1  1    361984  models.common.C3                        [512, 256, 1, False]
+ 14                -1  1     33024  models.common.Conv                      [256, 128, 1, 1]
+ 15                -1  1         0  torch.nn.modules.upsampling.Upsample    [None, 2, 'nearest']
+ 16           [-1, 4]  1         0  models.common.Concat                    [1]
+ 17                -1  1     90880  models.common.C3                        [256, 128, 1, False]
+ 18                -1  1    147712  models.common.Conv                      [128, 128, 3, 2]
+ 19          [-1, 14]  1         0  models.common.Concat                    [1]
+ 20                -1  1    296448  models.common.C3                        [256, 256, 1, False]
+ 21                -1  1    590336  models.common.Conv                      [256, 256, 3, 2]
+ 22          [-1, 10]  1         0  models.common.Concat                    [1]
+ 23                -1  1   1182720  models.common.C3                        [512, 512, 1, False]
+ 24      [17, 20, 23]  1     18879  models.yolo.Detect                      [2, [[10, 13, 16, 30, 33, 23], [30, 61, 62, 45, 59, 119], [116, 90, 156, 198, 373, 326]], [128, 256, 512]]
+[W NNPACK.cpp:80] Could not initialize NNPACK! Reason: Unsupported hardware.
+Model Summary: 283 layers, 7066239 parameters, 7066239 gradients, 16.4 GFLOPs
+Transferred 354/362 items from weights/yolov5s.pt
+Scaled weight_decay = 0.0005
+[34m[1moptimizer:[39m[22m SGD with parameter groups 59 weight, 62 weight (no decay), 62 bias
+[34m[1mtrain: [39m[22mScanning 'VOCdevkit/labels/train' images and labels...6215 found, 0 missing, 24 empty, 0 corru/usr/local/lib/python3.8/dist-packages/PIL/TiffImagePlugin.py:811: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0.
+  warnings.warn(str(msg))
+[34m[1mtrain: [39m[22mScanning 'VOCdevkit/labels/train' images and labels...8840 found, 0 missing, 24 empty, 0 corru
+[34m[1mtrain: [39m[22mWARNING: corrupt JPEG restored and saved VOCdevkit/images/train/test_00000036.jpg
+[34m[1mtrain: [39m[22mWARNING: corrupt JPEG restored and saved VOCdevkit/images/train/test_00000498.jpg
+[34m[1mtrain: [39m[22mWARNING: corrupt JPEG restored and saved VOCdevkit/images/train/test_00000420.jpg
+[34m[1mtrain: [39m[22mWARNING: corrupt JPEG restored and saved VOCdevkit/images/train/test_00000994.jpg
+[34m[1mtrain: [39m[22mWARNING: corrupt JPEG restored and saved VOCdevkit/images/train/test_00000979.jpg
+[34m[1mtrain: [39m[22mWARNING: corrupt JPEG restored and saved VOCdevkit/images/train/test_00001296.jpg
+[34m[1mtrain: [39m[22mWARNING: corrupt JPEG restored and saved VOCdevkit/images/train/test_00001415.jpg
+[34m[1mtrain: [39m[22mWARNING: corrupt JPEG restored and saved VOCdevkit/images/train/test_00001366.jpg
+[34m[1mtrain: [39m[22mWARNING: corrupt JPEG restored and saved VOCdevkit/images/train/test_00000957.jpg
+[34m[1mtrain: [39m[22mWARNING: corrupt JPEG restored and saved VOCdevkit/images/train/test_00001565.jpg
+[34m[1mtrain: [39m[22mWARNING: corrupt JPEG restored and saved VOCdevkit/images/train/test_00001949.jpg
+[34m[1mtrain: [39m[22mWARNING: corrupt JPEG restored and saved VOCdevkit/images/train/test_00001959.jpg
+[34m[1mtrain: [39m[22mWARNING: corrupt JPEG restored and saved VOCdevkit/images/train/test_00002231.jpg
+[34m[1mtrain: [39m[22mWARNING: corrupt JPEG restored and saved VOCdevkit/images/train/test_00002049.jpg
+[34m[1mtrain: [39m[22mWARNING: corrupt JPEG restored and saved VOCdevkit/images/train/test_00002229.jpg
+[34m[1mtrain: [39m[22mWARNING: corrupt JPEG restored and saved VOCdevkit/images/train/test_00002558.jpg
+[34m[1mtrain: [39m[22mWARNING: corrupt JPEG restored and saved VOCdevkit/images/train/test_00002595.jpg
+[34m[1mtrain: [39m[22mWARNING: corrupt JPEG restored and saved VOCdevkit/images/train/test_00002702.jpg
+[34m[1mtrain: [39m[22mWARNING: corrupt JPEG restored and saved VOCdevkit/images/train/test_00002711.jpg
+[34m[1mtrain: [39m[22mWARNING: corrupt JPEG restored and saved VOCdevkit/images/train/test_00002886.jpg
+[34m[1mtrain: [39m[22mWARNING: corrupt JPEG restored and saved VOCdevkit/images/train/test_00002882.jpg
+[34m[1mtrain: [39m[22mWARNING: corrupt JPEG restored and saved VOCdevkit/images/train/test_00002903.jpg
+[34m[1mtrain: [39m[22mWARNING: corrupt JPEG restored and saved VOCdevkit/images/train/test_00002945.jpg
+[34m[1mtrain: [39m[22mWARNING: corrupt JPEG restored and saved VOCdevkit/images/train/test_00002962.jpg
+[34m[1mtrain: [39m[22mWARNING: corrupt JPEG restored and saved VOCdevkit/images/train/test_00003052.jpg
+[34m[1mtrain: [39m[22mWARNING: corrupt JPEG restored and saved VOCdevkit/images/train/test_00003202.jpg
+[34m[1mtrain: [39m[22mWARNING: corrupt JPEG restored and saved VOCdevkit/images/train/test_00003608.jpg
+[34m[1mtrain: [39m[22mWARNING: corrupt JPEG restored and saved VOCdevkit/images/train/test_00003589.jpg
+[34m[1mtrain: [39m[22mWARNING: corrupt JPEG restored and saved VOCdevkit/images/train/test_00003305.jpg
+[34m[1mtrain: [39m[22mWARNING: corrupt JPEG restored and saved VOCdevkit/images/train/test_00003728.jpg
+[34m[1mtrain: [39m[22mWARNING: corrupt JPEG restored and saved VOCdevkit/images/train/test_00003762.jpg
+[34m[1mtrain: [39m[22mWARNING: corrupt JPEG restored and saved VOCdevkit/images/train/test_00003786.jpg
+[34m[1mtrain: [39m[22mWARNING: corrupt JPEG restored and saved VOCdevkit/images/train/test_00003961.jpg
+[34m[1mtrain: [39m[22mWARNING: corrupt JPEG restored and saved VOCdevkit/images/train/test_00004117.jpg
+[34m[1mtrain: [39m[22mWARNING: corrupt JPEG restored and saved VOCdevkit/images/train/test_00004196.jpg
+[34m[1mtrain: [39m[22mWARNING: corrupt JPEG restored and saved VOCdevkit/images/train/test_00004228.jpg
+[34m[1mtrain: [39m[22mWARNING: corrupt JPEG restored and saved VOCdevkit/images/train/test_00004229.jpg
+[34m[1mtrain: [39m[22mWARNING: corrupt JPEG restored and saved VOCdevkit/images/train/test_00004480.jpg
+[34m[1mtrain: [39m[22mWARNING: corrupt JPEG restored and saved VOCdevkit/images/train/test_00004340.jpg
+[34m[1mtrain: [39m[22mWARNING: corrupt JPEG restored and saved VOCdevkit/images/train/test_00004703.jpg
+[34m[1mtrain: [39m[22mWARNING: corrupt JPEG restored and saved VOCdevkit/images/train/test_00003972.jpg
+[34m[1mtrain: [39m[22mWARNING: corrupt JPEG restored and saved VOCdevkit/images/train/test_00004764.jpg
+[34m[1mtrain: [39m[22mWARNING: corrupt JPEG restored and saved VOCdevkit/images/train/test_00004763.jpg
+[34m[1mtrain: [39m[22mWARNING: corrupt JPEG restored and saved VOCdevkit/images/train/test_00004754.jpg
+[34m[1mtrain: [39m[22mWARNING: corrupt JPEG restored and saved VOCdevkit/images/train/test_00004849.jpg
+[34m[1mtrain: [39m[22mWARNING: corrupt JPEG restored and saved VOCdevkit/images/train/img02886.jpg
+[34m[1mtrain: [39m[22mWARNING: corrupt JPEG restored and saved VOCdevkit/images/train/img02984.jpg
+[34m[1mtrain: [39m[22mWARNING: corrupt JPEG restored and saved VOCdevkit/images/train/img03038.jpg
+[34m[1mtrain: [39m[22mWARNING: corrupt JPEG restored and saved VOCdevkit/images/train/img03008.jpg
+[34m[1mtrain: [39m[22mNew cache created: VOCdevkit/labels/train.cache
+[34m[1mval: [39m[22mScanning 'VOCdevkit/labels/val' images and labels...1852 found, 0 missing, 5 empty, 0 corrupted:/usr/local/lib/python3.8/dist-packages/PIL/TiffImagePlugin.py:811: UserWarning: Corrupt EXIF data.  Expecting to read 12 bytes but only got 4.
+  warnings.warn(str(msg))
+[34m[1mval: [39m[22mScanning 'VOCdevkit/labels/val' images and labels...2368 found, 0 missing, 5 empty, 0 corrupted:
+[34m[1mval: [39m[22mWARNING: corrupt JPEG restored and saved VOCdevkit/images/val/test_00000027.jpg
+[34m[1mval: [39m[22mWARNING: corrupt JPEG restored and saved VOCdevkit/images/val/test_00000671.jpg
+[34m[1mval: [39m[22mWARNING: corrupt JPEG restored and saved VOCdevkit/images/val/test_00001334.jpg
+[34m[1mval: [39m[22mWARNING: corrupt JPEG restored and saved VOCdevkit/images/val/img03019.jpg
+[34m[1mval: [39m[22mWARNING: corrupt JPEG restored and saved VOCdevkit/images/val/test_00001945.jpg
+[34m[1mval: [39m[22mWARNING: corrupt JPEG restored and saved VOCdevkit/images/val/test_00001145.jpg
+[34m[1mval: [39m[22mWARNING: corrupt JPEG restored and saved VOCdevkit/images/val/test_00002241.jpg
+[34m[1mval: [39m[22mWARNING: corrupt JPEG restored and saved VOCdevkit/images/val/test_00002071.jpg
+[34m[1mval: [39m[22mWARNING: corrupt JPEG restored and saved VOCdevkit/images/val/test_00001998.jpg
+[34m[1mval: [39m[22mWARNING: corrupt JPEG restored and saved VOCdevkit/images/val/test_00002096.jpg
+[34m[1mval: [39m[22mWARNING: corrupt JPEG restored and saved VOCdevkit/images/val/test_00002196.jpg
+[34m[1mval: [39m[22mWARNING: corrupt JPEG restored and saved VOCdevkit/images/val/test_00002611.jpg
+[34m[1mval: [39m[22mWARNING: corrupt JPEG restored and saved VOCdevkit/images/val/test_00002432.jpg
+[34m[1mval: [39m[22mWARNING: corrupt JPEG restored and saved VOCdevkit/images/val/test_00002191.jpg
+[34m[1mval: [39m[22mWARNING: corrupt JPEG restored and saved VOCdevkit/images/val/test_00003269.jpg
+[34m[1mval: [39m[22mWARNING: corrupt JPEG restored and saved VOCdevkit/images/val/test_00002995.jpg
+[34m[1mval: [39m[22mWARNING: corrupt JPEG restored and saved VOCdevkit/images/val/test_00002997.jpg
+[34m[1mval: [39m[22mWARNING: corrupt JPEG restored and saved VOCdevkit/images/val/test_00003973.jpg
+[34m[1mval: [39m[22mWARNING: corrupt JPEG restored and saved VOCdevkit/images/val/test_00004757.jpg
+[34m[1mval: [39m[22mWARNING: corrupt JPEG restored and saved VOCdevkit/images/val/test_00004592.jpg
+[34m[1mval: [39m[22mNew cache created: VOCdevkit/labels/val.cache
+Image sizes 640 train, 640 val
+Using 4 dataloader workers
+Logging results to [1mruns/train/base4
+Starting training for 50 epochs...
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+      0/49     3.56G   0.07323    0.0268   0.01748        50       640:  89%|▉| 494/553 [11:59<01:25,
+Traceback (most recent call last):
+  File "train.py", line 610, in <module>
+    main(opt)
+  File "train.py", line 508, in main
+    train(opt.hyp, opt, device)
+  File "train.py", line 323, in train
+    scaler.step(optimizer)  # optimizer.step
+  File "/usr/local/lib/python3.8/dist-packages/torch/cuda/amp/grad_scaler.py", line 320, in step
+    if not sum(v.item() for v in optimizer_state["found_inf_per_device"].values()):
+  File "/usr/local/lib/python3.8/dist-packages/torch/cuda/amp/grad_scaler.py", line 320, in <genexpr>
+    if not sum(v.item() for v in optimizer_state["found_inf_per_device"].values()):
+KeyboardInterrupt

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<annotation>
+	<folder>/home/daniel/Data/Dataset/nomaskMaskNew/train_mafa</folder>
+	<filename>test_00004709.xml</filename>
+	<object>
+		<name>mask</name>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>113</xmin>
+			<ymin>41</ymin>
+			<xmax>266</xmax>
+			<ymax>229</ymax>
+		</bndbox>
+	</object>
+<size><width>400</width><height>374</height><depth>3</depth></size></annotation>
